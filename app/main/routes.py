@@ -6,7 +6,6 @@ from app.main.forms import Pitches
 
 main = Blueprint('main', __name__)
 
-
 @main.route('/', methods=['GET','POST'])
 @main.route('/home', methods=['GET','POST'])
 def home():
@@ -19,4 +18,5 @@ def home():
         db.session.commit()
         return redirect(url_for('main.home'))
     return render_template('index.html', form=form, pitches=pitches)
+
 
