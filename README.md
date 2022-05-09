@@ -1,16 +1,13 @@
 #Pitches
 Pitches is a web app that allows users to login and create pitches
 
-
-### Screenshot
-![ScreenShot](https://github.com/Eugene-Oluoch/Pitches/blob/master/app/static/images/pitches.png)
 ## LIVE DEMO
-[live](https://eugene-pitches.herokuapp.com/)
+[live]()
 ## Get Started
 To get a local copy to your machine.
 ### Setup
 * Download or clone files from this repo.
-Repository link: [Pitches](https://github.com/Eugene-Oluoch/Pitches)
+Repository link: [Pitches]()
 ### Developed with
 * Flask.
 * HTML for structure.
@@ -21,8 +18,7 @@ Repository link: [Pitches](https://github.com/Eugene-Oluoch/Pitches)
 * Objectives
 1. Users can Create an account
 2. User can Login and Logout
-3. User can Create Pitches
+3. User can Create Pitches<br>
 ## Author Info
-### Author: Eugene Mark Oluoch
+### Author: Dev Gitonga
 ### Career: FullStack Developer
-### Twitter: [@crabs_ke](https://twitter.com/crabs_ke)
