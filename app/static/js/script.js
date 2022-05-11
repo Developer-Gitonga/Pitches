@@ -5,7 +5,6 @@ let form = document.getElementById('form');
 
 
 
-
 dis.addEventListener('click', () => {
     pop.style.display = 'flex';
 })
