@@ -6,6 +6,7 @@ from sqlalchemy import create_engine, engine
 import psycopg2, os
 from app.config import config_options
 
+
 db = SQLAlchemy()
 bcrypt = Bcrypt()
 login_manager = LoginManager()
@@ -15,7 +16,7 @@ def create_app(config_name):
     app = Flask(__name__)
     app.config.from_object(config_options[config_name])
     # app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL')
-    # app.config["SQLALCHEMY_TRACK_MODIFICATIONS"]=False
+    # app.config["SQLALCHEMY_TRACK_MODIFICATIONS"]= False
     db.init_app(app)
     bcrypt.init_app(app)
     login_manager.init_app(app)
@@ -28,3 +29,4 @@ def create_app(config_name):
     app.register_blueprint(errors)
 
     return app
+
