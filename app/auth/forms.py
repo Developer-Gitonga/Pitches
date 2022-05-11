@@ -32,7 +32,6 @@ class Login(FlaskForm):
     submit = SubmitField('Login')
     
     
-    
 class Update(FlaskForm):
         #Validate not in database
     
