@@ -1,6 +1,6 @@
-# Pitches
+# Pitch
 
-Pitches is a web app that allows users to login and create pitches
+Pitch is a web app that allows users to login and create pitches
 
 ## LIVE DEMO
 [live]()
